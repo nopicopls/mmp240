@@ -1,0 +1,17 @@
+body{
+    background-color: darkgray;
+}
+#wrapper {
+width: 1200px;
+margin-left: auto;
+margin-right: auto;
+background-color: white;
+padding: 1em;
+}
+
+header{
+    background-color: black;
+    background-image: url("images/sonnie\'s\ edge.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
