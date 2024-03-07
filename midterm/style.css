@@ -10,8 +10,38 @@ padding: 1em;
 }
 
 header{
+    height: 200px;
     background-color: black;
-    background-image: url("images/sonnie\'s\ edge.png");
+    background-image: url("images/cover\ art.png");
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: top right;
+    background-size: 66%;
+    padding-bottom: 10em; 
+   /*background:url("images/cover\ art.png") no-repeat top left
+/66%; */
+}
+.heading{
+    color: white;
+    text-align: center;
+    width: 30%;
+    padding-top: 2em;
+    padding-bottom: none;
+}
+.banner-text{
+    width: 30%;
+    color: white;
+    text-align: left;
+    padding: 1em;
+}
+.btn{
+    display: block;
+    background-color: darkred; 
+    width: 5em;
+    color: white;
+    padding-top: none;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
 }
