@@ -1,15 +1,24 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
 body {
     background-color: rgb(0, 0, 0, 0.5);
 }
-
+p{
+    margin-bottom: 1em;
+    padding: 1em;
+}
 #wrapper {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
     background-color: white;
-    padding: 1em;
+    padding: none;
 }
-
+/* header banner styles xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 header {
     height: 200px;
     background-color: black;
@@ -34,8 +43,8 @@ header {
     width: 30%;
     color: white;
     text-align: left;
-    padding-bottom: none;
-    padding: 1em;
+    padding-bottom: 0.5em;
+    
 
 }
 
@@ -50,4 +59,46 @@ header {
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
+    margin-left: 1em;
+}
+/* navigation styles xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+nav{
+    background-color: rgb(176, 176, 176);
+    padding: 1em;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+nav a:hover{
+text-decoration: underline;
+}
+
+nav li{
+    display: inline-block;
+    margin-right: 1em;
+    background-color: black;
+    padding: 10px;
+}
+h2{
+    text-align: left;
+    padding: 10px;
+}
+/*xxxxxxxxxxxxxxx main xxxxxxxxxxxxxxxxxx */
+main{
+    margin-top: 1em;
+}
+.col-left{
+    float: left;
+    width: 48%;
+}
+.col-right{
+    float: right;
+    width: 48%;
+}
+footer{
+    clear: both;
+    font-size: small;
+    color: rgb(105, 105, 105);
+
 }
