@@ -100,5 +100,20 @@ footer{
     clear: both;
     font-size: small;
     color: rgb(105, 105, 105);
-
+}
+/*xxxxxxxxxxxxxxxxx episode boxes xxxxxxxxxxxxxxxx */
+.episode-box{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    flex: 0 0 auto;
+    text-align: center;
+    width: 200px;
+    margin: 1%;
+    background-color: lightblue;
+}
+.box1{
+  background-color: purple;
+  flex: auto;
 }
