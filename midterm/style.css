@@ -30,7 +30,10 @@ header {
     /*background:url("images/cover\ art.png") no-repeat top left
 /66%; */
 }
-
+.wrapper{
+    margin-top: auto;
+    margin-bottom: auto;
+}
 .heading {
     color: white;
     text-align: center;
@@ -48,18 +51,16 @@ header {
 
 }
 
-.btn {
+.btn{
+    padding: 10px;
     display: block;
     background-color: darkred;
     width: 5em;
     color: white;
-    padding-top: none;
-    padding: 10px;
     border-radius: 10px;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
-    margin-left: 1em;
 }
 /* navigation styles xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 nav{
@@ -84,36 +85,42 @@ h2{
     text-align: left;
     padding: 10px;
 }
+h3{
+    padding-bottom: none;
+    padding-left: 1em;
+}
 /*xxxxxxxxxxxxxxx main xxxxxxxxxxxxxxxxxx */
 main{
     margin-top: 1em;
 }
 .col-left{
+    
     float: left;
     width: 48%;
 }
 .col-right{
     float: right;
     width: 48%;
+    text-align: left;
 }
 footer{
     clear: both;
     font-size: small;
     color: rgb(105, 105, 105);
+    padding-left: 5px;
 }
 /*xxxxxxxxxxxxxxxxx episode boxes xxxxxxxxxxxxxxxx */
-.episode-box{
+.container{
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 .box{
     flex: 0 0 auto;
     text-align: center;
     width: 200px;
+    height: 300px;
     margin: 1%;
     background-color: lightblue;
-}
-.box1{
-  background-color: purple;
-  flex: auto;
 }
