@@ -67,12 +67,19 @@ h1{
 
 /* ************** 5. header and top navigation ************ */
 
+header{
+    position: relative;
+}
+
 #top-menu{
         /* display:none; */
         padding: 0.5em;
         border:solid 1px black;
         background-color: white;
         clear: right;
+        position: absolute;
+        right: 0;
+        top: 28px;
 }
 
 #top menu ul{
