@@ -39,7 +39,12 @@ input{
 }
 
 /* 3. Tpography */
-
+p, h1, h2, h3, h4{
+    margin-bottom: 1em;
+}
+h1, h2, h3, h4{
+    font-weight: bold;
+}
 h1{
     font-size: 1.5rem;
     line-height: 1em;
@@ -68,7 +73,7 @@ h1{
 /* ************** 5. header and top navigation ************ */
 
 header{
-    position: relative;
+ion: relative;
 }
 
 #top-menu{
@@ -90,7 +95,10 @@ header{
     font-size: 36px;
 }
 
-
+.show-menu{
+    background-color: none;
+    border: none;
+}
 /* ************** 6.program navigation ************ */
 
 /* ************** 7. homepage content ************ */
@@ -98,4 +106,45 @@ header{
 /* ************** 8. program pages ************ */
 
 /* ************** 9. media queries for larger viewports ************ */
+
+.search-programs{
+    min-height: 8em;
+    border:solid 1px gray;
+    border-radius: 10px;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.hero-banner{
+    min-height: 12em;
+    background-color: teal;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.events img{
+    width: 100%;
+}
+
+
+@media (min-width: 768px) {
+
+    .show-menu{
+        display: none;
+    }
+    .menu{
+        display: flex;
+    }
+
+    .menu li{
+        display: inline;
+        margin-right: 2em;
+    }
+
+    .layout{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-column-gap: 1em;
+    }
+}
 
