@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        ul{
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li{
+            background-color: cyan;
+            border-bottom: solid 1px black;
+        }
+
+       nav a{
+            text-decoration: none;
+            color: black;
+            display: block;
+            padding: 5px;
+        } 
+        
+        li ul{
+            display: none;
+        }
+
+        li:hover ul{
+            display: block;
+        }
+
+        li:hover{
+            background-color: yellow;
+        }
+
+        li li{
+            background-color: azure;
+        }
+
+       .expand{
+        float: right;
+       }
+
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="header"><a href="">Fruits <span class="material-symbols-outlined expand">
+            </span>expand_more</a>
+                <ul>
+                    <li><a href="">Apples</a></li>
+                    <li><a href="">Pears</a></li>
+                    <li><a href="">Oranges</a></li>
+                </ul>
+            </li>
+            <li class="header"><a href="">Vegetables <span class="material-symbols-outlined expand">
+            </span>expand_more</a>
+                <ul>
+                    <li><a href="">Carrots</a></li>
+                    <li><a href="">Peppers</a></li>
+                    <li><a href="">Cucumber</a></li>
+                </ul>
+            </li>
+        </ul>
+        </li>
+    </nav>
+</body>
+
+</html>
