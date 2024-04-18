@@ -178,6 +178,11 @@ li.dropdown:hover ul{
 
     .program-nav li{
         width: 30%;
+        position: relative;
+    }
+
+    .program-nav li li{
+        width: 100%;
     }
     
     .show-menu{
@@ -197,5 +202,28 @@ li.dropdown:hover ul{
         grid-template-columns: 2fr 1fr;
         grid-column-gap: 1em;
     }
+
+    .drowpdown ul{
+        display: block;
+        position: absolute;
+        background-color: white;
+        border: solid 1px black;
+        padding: 5px;
+        width: 100%;
+    }
+
+    /* main{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 2em;
+    }
+
+    .news{
+        grid-column-start: 1 span 2;
+    }
+
+    .events{
+        grid-column-start: 4;
+    } */
 }
 
