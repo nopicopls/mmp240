@@ -73,7 +73,7 @@ h1{
 /* ************** 5. header and top navigation ************ */
 
 header{
-ion: relative;
+position: relative;
 }
 
 #top-menu{
@@ -146,6 +146,45 @@ li.dropdown:hover ul{
 }
 
 /* ************** 8. program pages ************ */
+
+.program-title{
+    margin-top: 1em;
+
+}
+
+.program-layout a{
+    color: black;
+    text-decoration: none;
+}
+
+.program-layout h2, .program-layout h3, .program-layout h4{
+    font-size: smaller;
+    margin: 0;
+}
+
+.program-layout h3{
+    text-transform: uppercase;
+}
+
+.program-cards{
+    background-color: transparent;
+    transition-property: background-color box-shadow transform;
+    transition-duration: 1s;
+    border-radius: 10px;
+
+}
+
+.program-cards:hover{
+    background-color: purple;
+    box-shadow: 5px 5px 5px #888;
+    transform: scale(1.05);
+}
+
+
+.program-cards img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
 
 /* ************** 9. media queries for larger viewports ************ */
 
@@ -225,5 +264,17 @@ li.dropdown:hover ul{
     .events{
         grid-column-start: 4;
     } */
-}
+
+    .program{
+        display: block;
+    }
+
+    .program-layout{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-gap: 1em;
+    }
+
+
+} /*closing media query*/
 
