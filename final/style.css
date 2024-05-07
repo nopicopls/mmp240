@@ -276,5 +276,23 @@ li.dropdown:hover ul{
     }
 
 
+    #top-menu{
+        display:flex;
+        padding: 0.5em;
+        border:none;
+        position: static;
+    }
+
+    #top menu ul{
+        display: flex;
+    }
+
+    #top-menu li{
+        margin-right: 1em;
+    }
+
+    .menu-icon{
+        display: none;
+    }
 } /*closing media query*/
 
