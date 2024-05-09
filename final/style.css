@@ -168,10 +168,11 @@ li.dropdown:hover ul{
 
 .program-cards{
     background-color: transparent;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 30rem;
     transition-property: background-color box-shadow transform;
     transition-duration: 1s;
-    border-radius: 10px;
-
 }
 
 .program-cards:hover{
@@ -182,6 +183,7 @@ li.dropdown:hover ul{
 
 
 .program-cards img{
+    width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
