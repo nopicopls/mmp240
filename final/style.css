@@ -156,7 +156,6 @@ li.dropdown:hover ul {
 }
 
 /* ************** 8. program pages ************ */
-
 .program-title {
     margin-top: 1em;
 
@@ -283,7 +282,7 @@ program-cards {
         width: 100%;
     }
 
-    /* main{
+    main{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 2em;
@@ -295,10 +294,10 @@ program-cards {
 
     .events{
         grid-column-start: 4;
-    } */
+    } 
 
     .program {
-        display: block;
+        display: grid;
     }
 
     .program-layout {
