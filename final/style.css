@@ -156,6 +156,11 @@ li.dropdown:hover ul {
 }
 
 /* ************** 8. program pages ************ */
+
+.program{
+    display: grid;
+}
+
 .program-title {
     margin-top: 1em;
 
@@ -177,13 +182,13 @@ li.dropdown:hover ul {
     text-transform: uppercase;
 }
 
-program-cards {
+.program-cards {
     background-color: transparent;
     border-radius: 10px;
     overflow: hidden;
     width: 30rem;
     transition-property: background-color box-shadow transform;
-    transition-duration: 1s;
+    transition-duration: 0.3s;
 }
 
 .program-cards:hover {
@@ -214,6 +219,15 @@ program-cards {
 
 .card img {
     width: 100%;
+}
+
+.card-body{
+    margin: 1em;
+}
+
+.card-body p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
 }
 
 /* ************** 9. media queries for larger viewports ************ */
@@ -282,11 +296,11 @@ program-cards {
         width: 100%;
     }
 
-    main{
+    /* main{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 2em;
-    }
+    } */
 
     .news{
         grid-column-start: 1 span 2;
