@@ -157,13 +157,8 @@ li.dropdown:hover ul {
 
 /* ************** 8. program pages ************ */
 
-.program{
-    display: grid;
-}
-
 .program-title {
     margin-top: 1em;
-
 }
 
 .program-layout a {
@@ -182,7 +177,14 @@ li.dropdown:hover ul {
     text-transform: uppercase;
 }
 
-.program-cards {
+.program-cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 1em;
+
+}
+
+.card {
     background-color: transparent;
     border-radius: 10px;
     overflow: hidden;
@@ -191,14 +193,14 @@ li.dropdown:hover ul {
     transition-duration: 0.3s;
 }
 
-.program-cards:hover {
+.card:hover {
     background-color: rgb(206, 179, 206);
     box-shadow: 5px 5px 5px #888;
     transform: scale(1.05);
 }
 
 
-.program-cards img {
+.card img {
     width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -221,11 +223,11 @@ li.dropdown:hover ul {
     width: 100%;
 }
 
-.card-body{
+.card-body {
     margin: 1em;
 }
 
-.card-body p{
+.card-body p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: small;
 }
@@ -302,13 +304,13 @@ li.dropdown:hover ul {
         grid-gap: 2em;
     } */
 
-    .news{
+    .news {
         grid-column-start: 1 span 2;
     }
 
-    .events{
+    .events {
         grid-column-start: 4;
-    } 
+    }
 
     .program {
         display: grid;
