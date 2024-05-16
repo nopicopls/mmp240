@@ -67,6 +67,10 @@ h1 {
     justify-content: space-between;
 }
 
+.flex-containter h1{
+    text-decoration: dotted;
+}
+
 .larger-text {
     font-size: larger;
 }
@@ -83,6 +87,9 @@ h1 {
 
 header {
     position: relative;
+    background-color: #fff;
+    padding: 14px;
+    padding-bottom: 0;
 }
 
 #top-menu {
@@ -96,6 +103,10 @@ header {
     top: 28px;
 }
 
+.nav-menu{
+    text-decoration: none;
+}
+
 #top menu ul {
     list-style-type: none;
 }
@@ -107,6 +118,59 @@ header {
 .show-menu {
     background-color: none;
     border: none;
+}
+
+.navbar{
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+}
+
+.nav-menu{
+    position: fixed;
+    left: -200%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    transition: .3s;
+    padding-bottom: 41rem;
+    z-index: 999;
+    font-size: x-large;
+}
+
+.nav-menu .nav-menu-item .nav-link:hover{
+    background-color: #fff;
+    color: blue;
+}
+
+.hamburger{
+    display: block;
+    cursor: pointer;
+}
+
+.hamburger .active .bar:nth-child(2){
+    opacity:0;
+}
+
+.hamburger .active .bar:nth-child(1){
+    transform: translateY(-8px) rotate(45);
+}
+
+.hamburger .active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45);
+}
+
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    background-color: blue;
 }
 
 /* ************** 6.program navigation ************ */
