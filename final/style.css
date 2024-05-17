@@ -431,6 +431,12 @@ li.dropdown:hover{
         grid-template-columns: repeat(3,1fr);
         grid-gap: 1em;
     }
+
+    .program-title{
+        background-color: blue;
+        width: 100%;
+        color: white;
+    }
 }
 
 /*closing media query*/
