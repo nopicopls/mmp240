@@ -2,68 +2,83 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>associate</title>
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
-    <link rel="stylesheet" href="style.css">
-</head>
-<header class="flex-container">
-    <h1>Cuny Design</h1>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Design @ CUNY</title>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <nav>
+    <span class="material-symbols-outlined">
+    </span>
+  </nav>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <div id="wrapper">
+    <header class="flex-container">
+      <h1>Cuny Design</h1>
 
-    <nav class="top-nav">
-      <button class="show-menu"> <img src="images/menu.svg" alt="button"> </button>
-      <div class="menu">
-        <a href="#" onclick="showmenu();">
+      <nav class="top-nav">
+        <div class="menu">
+          <a href="#" onclick="showmenu();">
             <span class="material-symbols-outlined float-right menu-icon">
-            menu
+              menu
             </span>
 
-        </a>
+          </a>
           <div id="top-menu">
             <ul class="menu-bar">
-              <li> <a href="images/menu.svg"></a>About Cuny</li>
-              <li></li>
-              <li></li>
+              <li class="nav-menu-item">
+                <a href="https://www.cuny.edu/about/" class="nav-link">About Us</a>
+              </li>
+              <li class="nav-menu-item">
+                <a href="https://www.cuny.edu/financial-aid/" class="nav-link">Financial Aid</a>
+              </li>
+              <li class="nav-menu-item">
+                <a href="https://www.cuny.edu/admissions/undergraduate/apply/cuny-application/?utm_source=navigation"
+                  class="nav-link">Apply</a>
+              </li>
             </ul>
             <form action="#" method="get" class="search">
               <input type="search" name="search" placeholder="search...">
               <button>Go</button>
             </form>
           </div>
-      </div>
-    </nav>
-  </header>
-  <div class="search-programs">
-    <h2>Find a Design Program</h2>
-    <h3>Search by:</h3>
-    <nav class="program-nav">
-    <ul>
-      <li class="dropdown"><a href="">Discipline</a>
+          <nav class="navbar">
+            <a href="final.html" class="nav-branding"> <img src="images/Logo.png" alt="logo" style="max-height: 40px;">
+            </a>
+          </nav>
+        </div>
+      </nav>
+    </header>
+    <div class="search-programs">
+      <h2>Find a Design Program</h2>
+      <h3>Search by:</h3>
+      <nav class="program-nav">
         <ul>
-          <li><a href="digital.html">Digital Design</a></li>
-          <li><a href="animation.html">Animation</a></li>
-          <li><a href="industrial.html">Industrial Design</a></li>
+          <li class="dropdown"><a href="">Discipline</a>
+            <ul>
+              <li><a href="digital.html">Digital Design</a></li>
+              <li><a href="animation.html">Animation</a></li>
+              <li><a href="industrial.html">Industrial Design</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="">Degree</a>
+            <ul>
+              <li><a href="bachelor.html">Bachelor</a></li>
+              <li><a href="associate.html">Associate</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="">Borough</a>
+            <ul>
+              <li><a href="brooklyn.html">Brooklyn</a></li>
+              <li><a href="bronx.html">Bronx</a></li>
+              <li><a href="manhattan.html">Manhattan</a></li>
+              <li><a href="queens.html">Queens</a></li>
+            </ul>
+          </li>
         </ul>
-      </li>
-      <li class="dropdown"><a href="">Degree</a>
-        <ul>
-          <li><a href="bachelor.html">Bachelor</a></li>
-          <li><a href="associate.html">Associate</a></li>
-        </ul>
-      </li>
-      <li class="dropdown"><a href="">Borough</a>
-        <ul>
-          <li><a href="brooklyn.html">Brooklyn</a></li>
-          <li><a href="bronx.html">Bronx</a></li>
-          <li><a href="manhattan.html">Manhattan</a></li>
-          <li><a href="queens.html">Queens</a></li>
-        </ul>
-      </li>
-    </ul>
-  </nav>
-  </div>
+      </nav>
+    </div>
 
 <body>
     <main class="program">
@@ -76,7 +91,7 @@
                 <a href="http://www.bmcc.cuny.edu/media-arts/mmp_program.jsp" class="card-link">
 
                     <div class="card">
-                        <img src="https://via.placeholder.com/300x150" alt="#">
+                        <img src="images/college photos/bmcc.jpg" alt="#">
                         <div class="card-body">
                             <h3> Borough of Manhattan Community College</h3>
                             <h4>Borough: Manhattan</h4>
@@ -93,7 +108,7 @@
                     class="card-link">
 
                     <div class="card">
-                        <img src="https://via.placeholder.com/300x150" alt="#">
+                        <img src="images/college photos/bmcc.jpg" alt="#">
                         <div class="card-body">
                             <h3>Borough of Manhattan Community College</h3>
                             <h4>Borough: Manhattan</h4>
@@ -112,7 +127,7 @@
                     class="card-link">
 
                     <div class="card">
-                        <img src="https://via.placeholder.com/300x150" alt="#">
+                        <img src="images/college photos/bronxcc.jpg" alt="#">
                         <div class="card-body">
                             <h3>Bronx Community College</h3>
                             <h4>Borough: Bronx</h4>
@@ -129,7 +144,7 @@
                     class="card-link">
 
                     <div class="card">
-                        <img src="https://via.placeholder.com/300x150" alt="#">
+                        <img src="images/college photos/hostos.jpg" alt="#">
                         <div class="card-body">
                             <h3>Hostos Community College</h3>
                             <h4>Borough: Bronx</h4>
@@ -145,7 +160,7 @@
                     class="card-link">
 
                     <div class="card">
-                        <img src="https://via.placeholder.com/300x150" alt="#">
+                        <img src="images/college photos/hostos.jpg" alt="#">
                         <div class="card-body">
                             <h3>Hostos Community College</h3>
                             <h4>Borough: Bronx</h4>
@@ -162,7 +177,7 @@
                 <a href="https://www.kbcc.cuny.edu/academicdepartments/art/Animation.html" class="card-link">
 
                     <div class="card">
-                        <img src="https://via.placeholder.com/300x150" alt="#">
+                        <img src="images/college photos/kingsborough.jpg" alt="#">
                         <div class="card-body">
                             <h3>Kingsborough Community College</h3>
                             <h4>Borough: Brooklyn</h4>
@@ -179,7 +194,7 @@
                     class="card-link">
 
                     <div class="card">
-                        <img src="https://via.placeholder.com/300x150" alt="#">
+                        <img src="images/college photos/kingsborough.jpg" alt="#">
                         <div class="card-body">
                             <h3>Kingsborough Community College</h3>
                             <h4>Borough: Brooklyn</h4>
@@ -196,7 +211,7 @@
                 <a href="https://www.kbcc.cuny.edu/academicdepartments/art/UX-Design.html" class="card-link">
 
                     <div class="card">
-                        <img src="https://via.placeholder.com/300x150" alt="#">
+                        <img src="images/college photos/kingsborough.jpg" alt="#">
                         <div class="card-body">
                             <h3>Kingsborough Community College</h3>
                             <h4>Borough: Brooklyn</h4>
@@ -212,7 +227,7 @@
                 </a><!--card div9-->
                 <a href="https://www.laguardia.edu/majors/industrial-design/" class="card-link">
                     <div class="card">
-                        <img src="https://via.placeholder.com/300x150" alt="#">
+                        <img src="images/college photos/laguardia.jpg" alt="#">
                         <div class="card-body">
                             <h3>LaGuardia Community College</h3>
                             <h4>Borough: Queens</h4>
@@ -227,7 +242,7 @@
                 </a><!--card div10-->
                 <a href="https://www.laguardia.edu/majors/new-media-technology/" class="card-link">
                     <div class="card">
-                        <img src="https://via.placeholder.com/300x150" alt="#">
+                        <img src="images/college photos/laguardia.jpg" alt="#">
                         <div class="card-body">
                             <h3>LaGuardia Community College</h3>
                             <h4>Borough: Queens</h4>
@@ -244,7 +259,7 @@
                 </a><!--card div11-->
                 <a href="https://www.qcc.cuny.edu/academics/degree-programs/digital-art-design.html" class="card-link">
                     <div class="card">
-                        <img src="https://via.placeholder.com/300x150" alt="#">
+                        <img src="images/college photos/queensborough.jpg" alt="#">
                         <div class="card-body">
                             <h3>Queensborough Community College</h3>
                             <h4>Borough: Queens</h4>
@@ -261,7 +276,7 @@
                 </a><!--card div12-->
                 <a href="https://www.qcc.cuny.edu/academics/degree-programs/digital-art-design.html" class="card-link">
                     <div class="card">
-                        <img src="https://via.placeholder.com/300x150" alt="#">
+                        <img src="images/college photos/nycct.jpg" alt="#">
                         <div class="card-body">
                             <h3>New York City College Of Technology</h3>
                             <h4>Borough: Brooklyn</h4>
@@ -278,7 +293,7 @@
                 <a href="https://www.citytech.cuny.edu/communication-design/communication-design-aas.aspx"
                     class="card-link">
                     <div class="card">
-                        <img src="https://via.placeholder.com/300x150" alt="#">
+                        <img src="images/college photos/nycct.jpg" alt="#">
                         <div class="card-body">
                             <h3>New York City College Of Technology</h3>
                             <h4>Borough: Brooklyn</h4>
