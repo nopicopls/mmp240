@@ -87,9 +87,13 @@ h1 {
 
 header {
     position: relative;
-    background-color: #fff;
+    background-color: blue;
     padding: 14px;
     padding-bottom: 0;
+}
+
+header h1{
+    color: white;
 }
 
 #top-menu {
@@ -175,8 +179,18 @@ header {
 
 /* ************** 6.program navigation ************ */
 
+.program-title{
+    background-color: blue;
+    width: 20%;
+    color: white;
+}
+
 nav ul {
     list-style-type: none;
+}
+
+.search-programs{
+    background-color: #9ec5e8;
 }
 
 li.dropdown {
@@ -189,6 +203,11 @@ li.dropdown ul {
 
 li.dropdown:hover ul {
     display: block;
+    
+}
+
+li.dropdown:hover{
+    background-color: #ff8742
 }
 
 .dropdown a {
@@ -199,7 +218,7 @@ li.dropdown:hover ul {
 }
 
 .dropdown li a {
-    color: gray;
+    color: black;
 }
 
 /* ************** 7. homepage content ************ */
@@ -249,7 +268,7 @@ li.dropdown:hover ul {
 }
 
 .card {
-    background-color: transparent;
+    background-color: #9ec5e8;
     border-radius: 10px;
     overflow: hidden;
     width: 30rem;
@@ -409,7 +428,7 @@ li.dropdown:hover ul {
 
     .program-cards{
         display: grid;
-        grid-template-columns: repeat(4,1fr);
+        grid-template-columns: repeat(3,1fr);
         grid-gap: 1em;
     }
 }
